@@ -936,6 +936,10 @@ a {
         width: 100%;
     }
 
+    .mainsectioncontainer {
+        display: none;
+    }
+
     .pricinginfo {
         flex-direction: column;
     }
@@ -994,7 +998,9 @@ a {
     .modern {
         display: block;
     }
-
+    .mainsectioncontainer {
+        display: none;
+    }
     .privacy {
         flex-direction: column;
         padding: 24px 32px;
