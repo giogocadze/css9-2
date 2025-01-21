@@ -937,7 +937,7 @@ a {
     }
 
     .mainsectioncontainer {
-        display: none;
+        gap: 0px;
     }
 
     .pricinginfo {
@@ -999,8 +999,9 @@ a {
         display: block;
     }
     .mainsectioncontainer {
-        display: none;
+        gap: 0px;
     }
+  
     .privacy {
         flex-direction: column;
         padding: 24px 32px;
