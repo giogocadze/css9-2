@@ -357,11 +357,19 @@ a {
     gap: 64px;
     align-items: center;
     padding-bottom: 96px;
+    /* background-image: url(../image/Screen\ mockup\ light\ mode\ \(REPLACE\).svg);
+    background-position: bottom right;
+    background-repeat: no-repeat; */
+
+
+
+}
+
+.photo___one {
     background-image: url(../image/Screen\ mockup\ light\ mode\ \(REPLACE\).svg);
-    /* width: 100%; */
     background-position: bottom right;
     background-repeat: no-repeat;
-   
+    width: 100%;
 }
 
 .financebuizness {
@@ -478,17 +486,456 @@ a {
     padding: 0px 32px;
 }
 
-.photo___ {
-    /* background-image: url(../image/Screen\ mockup\ light\ mode\ \(REPLACE\).svg);
+/* .photo___ {
+    background-image: url(../image/Screen\ mockup\ light\ mode\ \(REPLACE\).svg);
     width: 100%;
     background-position: bottom right;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+} */
+
+.mobilediv,
+.modern {
+    display: none;
+}
+
+.sectionfive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    background: #F2EDFF;
+}
+
+.pricinginfo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1280px;
+    width: 100%;
+    gap: 64px;
+    padding: 0px 32px;
+    flex-wrap: wrap;
+}
+
+.price_ {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 440px;
+    width: 100%;
+}
+
+.upgrade {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.upgrade_ {
+    color: #6941C6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.priceplan {
+    color: #181D27;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+
+}
+
+.transparent_d {
+    color: #535862;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.subscriptionplan {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.subcriptionmain {
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+
+    box-shadow: 0px 12px 16px -4px var(--Colors-Effects-Shadows-shadow-lg_01, rgba(10, 13, 18, 0.08)), 0px 4px 6px -2px var(--Colors-Effects-Shadows-shadow-lg_02, rgba(10, 13, 18, 0.03)), 0px 2px 2px -1px var(--Colors-Effects-Shadows-shadow-lg_03, rgba(10, 13, 18, 0.04));
+}
+
+
+
+.billed {
+    padding: 32px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.basic__ {
+    color: #6941C6;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+.tendollar {
+    color: #181D27;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+
+.photo_zap {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    background: #F4EBFF;
+}
+
+.anually_ {
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.billparaghraps {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subcriptioninfo {
+    display: flex;
+    padding: 32px 32px 40px 32px;
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.acces {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.acces_ {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 240px;
+    width: 100%;
+}
+
+.featureacces {
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.fortygb {
+    color: #535862;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 240px;
+    width: 100%;
+}
+
+.getstarted {
+    padding: 32px;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    display: flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    color: #FFF;
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.subscriptionplanmain {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.sectionsix {
+    display: flex;
+    padding: 96px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simplicity {
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    background: #53389E;
+    max-width: 1216px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.girl {
+    border-radius: 0px 24px 24px 0px;
+}
+
+.reenecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 50px;
+    align-items: flex-start;
+    max-width: 608px;
+    width: 100%;
+}
+
+.starts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.startbox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.service__ {
+    color: #FFF;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+
+}
+
+.reenewels {
+    color: #FFF;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.desingerproduct {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.productdesing {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.paginaton {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sectionseven {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 64px 0px;
+    align-items: center;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.untitled {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.footernav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.productp {
+    color: #181D27;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.over {
+    color: #6941C6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 144px;
+
+}
+
+.footerlinks {
+    display: flex;
+    /* align-items: center; */
+    gap: 32px;
+    /* max-width: 640px;
+    width: 100%; */
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.stayupdate {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.email__ {
+    display: flex;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #7F56D9;
+    background: #FFF;
+    box-shadow: 4px 4px 20.9px 0px rgba(127, 86, 217, 0.25);
+}
+
+.subscribe {
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: #7F56D9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+
+}
+
+.footerinformation {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.emailbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.privacy {
+    display: flex;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E9EAEB;
+    max-width: 1216px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.untitledui {
+    color: #717680;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
+    .photo___one {
+        background-image: url(../image/photooo.svg);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .pricinginfo {
+        flex-direction: column;
+    }
 
     .nav,
-    .buttons {
+    .buttons,
+    .modern {
         display: none;
     }
 
@@ -507,9 +954,55 @@ a {
         justify-content: space-between;
         padding: 0px 32px;
     }
+
+    .simplicity {
+        flex-direction: column;
+
+    }
+
+    .sectionsix {
+        padding: 96px 32px;
+    }
+
+    .girl {
+        border-radius: 0px 0px 24px 24px;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .footerlinks {
+        flex-direction: column-reverse;
+    }
+
 }
 
+
+
+
+
 @media screen and (max-width:767px) {
+    .modern {
+        display: block;
+    }
+    .privacy {
+        flex-direction: column;
+        padding: 24px 32px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+
+    .container_ {
+        flex-direction: column;
+        gap: 48px;
+        padding: 0px 16px;
+    }
+
+    .container {
+        padding: 0px 16px;
+    }
 
     .nav,
     .buttons {
@@ -533,9 +1026,14 @@ a {
 
     }
 
-    .buttonBox {
-        flex-direction: column;
+    .sectionthree {
+        padding: 48px 0px;
+    }
 
+    .buttonBox {
+
+        flex-direction: column;
+        gap: 48px;
     }
 
     .playbox,
@@ -575,4 +1073,143 @@ a {
     .teamboxes {
         flex-direction: column;
     }
+
+    .mobilediv {
+        border-radius: 16px;
+        background: #53389E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* padding: 0px 16px; */
+        /* max-width: 240px;
+        width: 100%; */
+        /* background-image: url(../image/Image.svg);
+        background-repeat: no-repeat;
+        background-position: bottom; */
+    }
+
+    .get_ {
+        display: flex;
+        padding: 12px 18px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: #7F56D9;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: 24px;
+
+    }
+
+    .buttonmobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .learnmob {
+        display: flex;
+        padding: 18px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        border-radius: 8px;
+        border: 1px solid #D5D7DA;
+        background: #FFF;
+        color: #414651;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        box-shadow: 0px 0px 0px 1px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border, rgba(10, 13, 18, 0.18)) inset, 0px -2px 0px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner, rgba(10, 13, 18, 0.05)) inset, 0px 1px 2px 0px var(--Colors-Effects-Shadows-shadow-xs, rgba(10, 13, 18, 0.05));
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 16px;
+        padding-bottom: 64px;
+    }
+
+    .mobilecard {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 24px 48px 24px;
+        gap: 32px;
+    }
+
+    .give {
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+
+    }
+
+    .join_ {
+        color: #E9D7FE;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .giveusshot {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .subscriptionplan,
+    .pricinginfo {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .simplicity {
+        flex-direction: column;
+
+    }
+
+    .sectionsix {
+        padding: 64px 16px;
+    }
+
+    .girl {
+        border-radius: 0px 0px 24px 24px;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .footerlinks {
+        flex-direction: column-reverse;
+    }
+
+    .email__,
+    .subscribe {
+        width: 100%;
+    }
+
+    .emailbox {
+        flex-direction: column;
+    }
+
+    .footerinformation {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
 }
